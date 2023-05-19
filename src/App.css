@@ -1,0 +1,68 @@
+
+body{
+  background-color: rgb(57, 57, 71);
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.registeration{
+  margin-top: 40px;
+  height: 400px;
+  max-width: 450px;
+  background-color: rgb(94, 94, 53);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.in-tag{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.success-msg{
+  background-color: rgb(65, 126, 206);
+  color: white;
+  width: 445px;
+  height: 60px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.in{
+  margin-top: 20px;
+  padding-left: 10px;
+  width: 430px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+.in:focus{
+  background-color: rgb(189, 189, 161);
+}
+span{
+  color: red;
+ margin-right: 270px;
+}
+button{
+  margin-top: 20px;
+  width: 445px;
+  height: 60px;
+  font-size: 20px;
+  background-color: rgb(57, 104, 88);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: rgb(80, 151, 127);
+}
